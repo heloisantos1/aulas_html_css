@@ -1,3 +1,7 @@
+* {
+    margin: 0;
+}
+
 div {
     border: 4px dotted rgb(199, 92, 174);
     width: fit-content;
@@ -25,4 +29,21 @@ div {
     /* propriedades extras  */
     padding-inline: 40px;   /* padding na horizontal */
     padding-block: 20px;   /* padding na vertical */
+}
+
+h1 {
+    border: 1px solid plum;
+    margin-bottom: 20px;
+}
+
+.algum {
+    margin-bottom: 100px;
+}
+
+.ultimo {
+    margin-top: 50px;
+}
+
+.outro {
+    margin-inline: auto;
 }
